@@ -1,15 +1,17 @@
 
-function verificarTime() {
+
+
+function verificarPaís() {
   
   var continuarPerguntando = true;
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaPaís = prompt("Qual o melhor País?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaPaís.toLowerCase() === "França") {
+      alert("Isso mesmo! A França é o melhor País!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
